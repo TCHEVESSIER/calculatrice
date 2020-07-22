@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice HTML, CSS, JS</title>
+
+  <!-- FONT LINKS -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CSS LINKS -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+  <div class="calculator">
+    <div class="cadreR">0</div>
+
+    <button class="reset" onclick="reset()">C</button>
+    <button class="number" data-calc="%">%</button>
+    <button class="number" data-calc="/">/</button>
+    <button class="delete" onclick="Delete()">X</button>
+
+    <button class="number" data-calc="7">7</button>
+    <button class="number" data-calc="8">8</button>
+    <button class="number" data-calc="9">9</button>
+    <button class="number" data-calc="*">*</button>
+
+    <button class="number" data-calc="4">4</button>
+    <button class="number" data-calc="5">5</button>
+    <button class="number" data-calc="6">6</button>
+    <button class="number" data-calc="-">-</button>
+
+    <button class="number" data-calc="1">1</button>
+    <button class="number" data-calc="2">2</button>
+    <button class="number" data-calc="3">3</button>
+    <button class="number" data-calc="+">+</button>
+
+
+
+    <button class="number" data-calc="0">0</button>
+    <button class="number" data-calc=".">,</button>
+    <button id="equals" onclick="calculate()">=</button>
+
+  </div>
+  <!-- calculator body ends -->
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
